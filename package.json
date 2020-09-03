@@ -1,0 +1,25 @@
+{
+  "name": "mqtt-server",
+  "version": "1.0.0",
+  "description": "mqtt",
+  "main": "server.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhanhNguyenKHTN/MQTT-Server-NodeJS.git"
+  },
+  "keywords": [
+    "khanhnguyen"
+  ],
+  "author": "khanhnguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhanhNguyenKHTN/MQTT-Server-NodeJS/issues"
+  },
+  "homepage": "https://github.com/KhanhNguyenKHTN/MQTT-Server-NodeJS#readme",
+  "dependencies": {
+    "mosca": "^2.8.3"
+  }
+}
