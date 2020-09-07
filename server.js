@@ -32,5 +32,5 @@ server.on('ready', setup);
 
 // fired when the mqtt server is ready
 function setup() {
-  console.log('Mosca server is up and running');
+  console.log('MQTT is up and running');
 }
