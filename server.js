@@ -12,7 +12,7 @@ server.on('clientConnected', function(client) {
 
 // fired when a message is received
 server.on('published', function(packet, client) {
-  console.log('Published: ', packet.payload, packet.topic);
+  console.log('Published: ', packet.payload, packet.topic, client?.id);
 });
 
 server.authenticate = function (client, username, password, callback) {
